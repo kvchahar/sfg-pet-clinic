@@ -40,11 +40,18 @@
                 <version>2.5.3</version>
                 <configuration>
                     <goals>install</goals>
+                    <checkModificationExcludes>
+                        <checkModificationExclude>pom.xml</checkModificationExclude>
+                    </checkModificationExcludes>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
-   
+    <scm>
+        <connection>scm:git:https://github.com/kvchahar/sfg-pet-clinic.git</connection>
+        <developerConnection>scm:git:https://github.com/kvchahar/sfg-pet-clinic.git</developerConnection>
+        <url>https://github.com/kvchahar/sfg-pet-clinic</url>
+    </scm>
 
 </project>
