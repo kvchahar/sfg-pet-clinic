@@ -40,9 +40,6 @@
                 <version>2.5.3</version>
                 <configuration>
                     <goals>install</goals>
-                    <checkModificationExcludes>
-                        <checkModificationExclude>pom.xml</checkModificationExclude>
-                    </checkModificationExcludes>
                 </configuration>
             </plugin>
         </plugins>
