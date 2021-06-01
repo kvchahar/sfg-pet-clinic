@@ -32,6 +32,7 @@ public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetS
         super.delete(object);
     }
 
+    //
     @Override
     public Vet save(Vet object) {
         if (object.getSpecialities().size() > 0) {
